@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TableLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+     >
+ 
+    <TableRow>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="20px"
+            android:text="Write character"
+            android:textColor="#000000"
+            android:layout_marginLeft="10dip"></TextView>
+    </TableRow>       
+    <TableRow>
+         
+        <AutoCompleteTextView
+            android:id="@+id/toNumber"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="10dip"
+            android:layout_marginRight="10dip"
+            android:textColor="#000000"
+            android:textColorHighlight="#000000"
+            android:textColorLink="#000000"
+            android:textStyle="bold"
+            android:width="250dip" />
+         
+    </TableRow>
+    <TableRow android:layout_marginTop="4dip">
+
+        <Button
+            android:id="@+id/button1"
+            android:width="25dip"
+            android:height="25dip"
+            android:text="Call" />  
+     </TableRow>
+
+    <Button
+        android:id="@+id/Send"
+        android:clickable="true"
+        android:text="Dial and Call"
+        android:width="100dip" />
+
+    <Button
+        android:id="@+id/button2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Call details" />
+
+    <Button
+        android:id="@+id/button4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Show Graph" />
+
+    <Button
+        android:id="@+id/button3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Freqent details" />
+  
+</TableLayout>
+ 
